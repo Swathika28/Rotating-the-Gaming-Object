@@ -37,7 +37,35 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop
 
 ## Program:
+Developed by :  Swathika G
+Reg No       : 212221230113
+```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class code : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.right, Vector3.up, 40 * Time.deltaTime);
+    }
+}
+
+```
 
 ## Output:
+Before Rotation:
+![output](a.jpg)
+After Rotation:
+![output](b.jpg)
 
 ## Result:
+the programm is verified succesfully
